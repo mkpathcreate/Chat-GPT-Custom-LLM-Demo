@@ -11,8 +11,8 @@ import sys
 import os
 
 
-#os.environ["OPENAI_API_KEY"] = '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'
-os.environ["OPENAI_API_KEY"] = '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'
+#os.environ["OPENAI_API_KEY"] = ''
+os.environ["OPENAI_API_KEY"] = ''
 TOKENIZERS_PARALLELISM = False
 
 # Enable this if you enable local Chat GPT to cut costs, but will not work with gradio web interface
