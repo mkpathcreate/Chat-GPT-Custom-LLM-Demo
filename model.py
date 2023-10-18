@@ -6,13 +6,13 @@ from llama_index.llms import OpenAI
 from langchain.utilities import SQLDatabase
 from langchain.llms import OpenAI
 from langchain_experimental.sql import SQLDatabaseChain
+from config import *  
 import gradio as gr
 import sys
 import os
 
 
-#os.environ["OPENAI_API_KEY"] = ''
-os.environ["OPENAI_API_KEY"] = ''
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 TOKENIZERS_PARALLELISM = False
 
 # Enable this if you enable local Chat GPT to cut costs, but will not work with gradio web interface
